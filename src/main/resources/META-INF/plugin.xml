@@ -1,0 +1,15 @@
+<idea-plugin>
+  <id>com.github.balbekovad.helloworldplugin</id>
+  <name>Hello World Shower</name>
+  <vendor email="example@mail.ru">Nikolai Vladimirov</vendor>
+
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.java</depends>
+  <depends>org.jetbrains.kotlin</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <toolWindow id="CounterTool" anchor="right"
+      factoryClass="com.example.idedevelopment.TWFactory"/>
+  </extensions>
+
+</idea-plugin>
